@@ -5,6 +5,7 @@ header{
     left: 0;
     z-index: var(--z-fixed);
     background-color: var(--body-color);
+    box-shadow: 0 -3px 10px 10px #e1e1e1;
 }
 
 nav{

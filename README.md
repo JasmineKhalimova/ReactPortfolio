@@ -6,3 +6,6 @@
 ## Short cuts for functions in VS code 
 
 rafce => for arrow function
+
+## Commenting in jsx 
+{/* Example */}
