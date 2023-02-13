@@ -1,5 +1,7 @@
 ### New Portfolio
 
+More details to come
+
 ### Tips
 
 ## How to get local image
