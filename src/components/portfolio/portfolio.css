@@ -61,6 +61,9 @@
     padding: 1rem 2rem;
     border-radius: 1.25rem;
 }
+.portfolio__item:hover{
+    box-shadow: 0 20px 20px -10px rgba(0, 0, 0, 0.2);
+}
 
 .portfolio__icon{
     font-size: 1.4rem;
