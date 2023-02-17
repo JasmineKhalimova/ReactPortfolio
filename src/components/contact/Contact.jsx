@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
-import { AiOutlineSend, AiFillLinkedin } from 'react-icons/ai';
+import { AiOutlineSend, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Contact = () => {
     // Post 
@@ -32,6 +32,11 @@ const Contact = () => {
                 <div className='contact__card'>
                     <a href='https://www.linkedin.com/in/jasmine-k-5bb6a9151/'>
                         <h3 className='contact__card-title'>Linkedin <AiFillLinkedin className='contact__card-icon'/></h3>
+                    </a>
+                </div>
+                <div className='contact__card'>
+                    <a href='https://github.com/JasmineKhalimova'>
+                        <h3 className='contact__card-title'>GitHub <AiFillGithub className='contact__card-icon'/></h3>
                     </a>
                 </div>
             </div>

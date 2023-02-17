@@ -2,6 +2,7 @@ import React from 'react';
 import './about.css';
 import '../../assets/profile-img.jpeg'
 import CV from '../../assets/cv.pdf';
+import { TbAward, TbBriefcase, TbPhoneCall, TbFileDownload} from 'react-icons/tb';
 
 const About = () => {
   return (
@@ -13,17 +14,17 @@ const About = () => {
             <div className='about__data'>
                 <div className='about__info grid'>
                     <div className='about__box'>
-                        <i className="uil uil-award about__icon"></i>
+                        <TbAward className='about__icon'/>
                         <h3 className='about__title'>Experience</h3>
                         <span className='about__subtitle'>5 Years Working</span>
                     </div>
                     <div className='about__box'>
-                        <i className="uil uil-briefcase-alt about__icon"></i>
+                        <TbBriefcase className='about__icon'/>
                         <h3 className='about__title'>Completed</h3>
                         <span className='about__subtitle'>45+ Projects</span>
                     </div>
                     <div className='about__box'>
-                        <i className="uil uil-phone-volume about__icon"></i>
+                        <TbPhoneCall className='about__icon'/>
                         <h3 className='about__title'>Support</h3>
                         <span className='about__subtitle'>Online 24/7</span>
                     </div>
@@ -36,7 +37,7 @@ const About = () => {
                 </p>
                 <a download="" href={CV} className='button button--flex'>
                     Download CV
-                    <i className="uil uil-file-download"></i>
+                    <TbFileDownload />
                 </a>
             </div>
         </div>

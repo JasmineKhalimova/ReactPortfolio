@@ -176,6 +176,20 @@ img{
     align-items: center;
 }
 
+/**==== Footer ====**/
+.footer__container{
+    background: #ebebeb;
+    font-size: var(--small-font-size);
+}
+.footer__inner{
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    padding: 3.5rem 1rem;
+}
+.developed{
+    text-align: right;
+}
+
+
 /**==== Breakpoints ====**/
 @media screen and (max-width: 992px){
     .container{
