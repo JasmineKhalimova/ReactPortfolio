@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './header.css';
 import '../../assets/logo.png';
+import { AiOutlineHome, AiOutlineUser, AiOutlineFileDone, AiOutlineSend } from 'react-icons/ai';
+import { BsCardImage } from 'react-icons/bs';
 
 export const Header = () => {
   // Mobile menu toggle
@@ -16,31 +18,31 @@ export const Header = () => {
               <ul className='nav__list grid'>
                 <li className='nav__item'>
                   <a className='nav__link active-link' href='#home'>
-                    <i className='uil uil-estate nav__icon'></i>
+                    <AiOutlineHome className='nav__icon'/>
                     Home
                   </a>
                 </li>
                 <li className='nav__item'>
                   <a className='nav__link' href='#about'>
-                    <i className='uil uil-user nav__icon'></i>
+                    <AiOutlineUser className='nav__icon'/>
                     About
                   </a>
                 </li>
                 <li className='nav__item'>
                   <a className='nav__link' href='#skills'>
-                    <i className='uil uil-file-alt nav__icon'></i>
+                    <AiOutlineFileDone className='nav__icon'/>
                     Skills
                   </a>
                 </li>
                 <li className='nav__item'>
                   <a className='nav__link' href='#portfolio'>
-                    <i className='uil uil-scenery nav__icon'></i>
+                    <BsCardImage className='nav__icon'/>
                     Portfolio
                   </a>
                 </li>
                 <li className='nav__item'>
                   <a className='nav__link' href='#contact'>
-                    <i className='uil uil-message nav__icon'></i>
+                    <AiOutlineSend className='nav__icon'/>
                     Contact
                   </a>
                 </li>

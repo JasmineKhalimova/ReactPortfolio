@@ -19,6 +19,7 @@
 
 .qualification__button:hover{
     color: var(--title-color-dark);
+    border-bottom: 1px solid;
 }
 
 .qualification__icon{
@@ -28,6 +29,7 @@
 
 .qualification__active{
     color: var(--title-color-dark);
+    border-bottom: 1px solid;
 }
 
 .qualification__sections{
