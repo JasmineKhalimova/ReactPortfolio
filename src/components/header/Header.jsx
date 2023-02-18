@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './header.css';
 import '../../assets/logo.png';
-import { AiOutlineHome, AiOutlineUser, AiOutlineFileDone, AiOutlineSend } from 'react-icons/ai';
+import { AiOutlineHome, AiOutlineUser, AiOutlineFileDone, AiOutlineSend, AiOutlineClose, AiOutlineAppstore } from 'react-icons/ai';
 import { BsCardImage } from 'react-icons/bs';
 
 export const Header = () => {
@@ -47,10 +47,10 @@ export const Header = () => {
                   </a>
                 </li>
               </ul>
-              <i className='uil uil-times nav__close' onClick={() => showMenu(!Toggle)}></i>
+              <AiOutlineClose className='nav__close'onClick={() => showMenu(!Toggle)} />
             </div>
             <div className='nav__toggle' onClick={() => showMenu(!Toggle)}>
-              <i className='uil uil-apps'></i>
+              <AiOutlineAppstore className='nav__icon'/>
             </div>
         </nav>
     </header>

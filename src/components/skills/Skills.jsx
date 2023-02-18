@@ -1,5 +1,7 @@
 import React from 'react';
 import './skills.css';
+import { HiOutlineBadgeCheck } from 'react-icons/hi';
+
 
 const Skills = () => {
   return (
@@ -12,7 +14,7 @@ const Skills = () => {
           <h3 className='skills__title'>Frontend Developing</h3>
           <div className='skills__group'>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+              <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Frontend Technologies: </b>
@@ -23,7 +25,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+              <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Application Programming Interfaces: </b>
@@ -33,7 +35,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Android Mobile App Development: </b> 
@@ -46,7 +48,7 @@ const Skills = () => {
           </div>
           <div className='skills__group'>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Graphic design: </b>
@@ -56,7 +58,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Web Accessibility: </b>
@@ -67,7 +69,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Testing: </b> A/B, unit & manual testing, and Q/A
@@ -83,7 +85,7 @@ const Skills = () => {
           <h3 className='skills__title'>Backend Developing</h3>
           <div className='skills__group'>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Backend Technologies: </b>
@@ -93,7 +95,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Full Stack: </b> Linux, Apache, MySQL, PHP (LAMP)
@@ -103,7 +105,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Databases: </b> MySQL, NoSQL (MongoDB) and
@@ -115,7 +117,7 @@ const Skills = () => {
           </div>
           <div className='skills__group'>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Version control systems: </b> 
@@ -125,7 +127,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Operating Systems: </b> Linux (Ubuntu desktop
@@ -135,7 +137,7 @@ const Skills = () => {
               </div>
             </div>
             <div className='skills__data'>
-              <i className='bx bx-badge-check'></i>
+            <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Cloud Computing: </b> Google Cloud, Microsoft

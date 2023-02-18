@@ -8,25 +8,25 @@
 }
 
 .portfolio__button{
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin: 0 var(--mb-1);
     cursor: pointer;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
 }
 
 .portfolio__button:hover{
     border-radius: 1.25rem;
     background-color: #000;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
 }
 
 .portfolio__active{
     border-radius: 1.25rem;
     background-color: #000;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
 }
 
 .portfolio__content{
@@ -58,7 +58,7 @@
 .portfolio__item {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     border-radius: 1.25rem;
 }
 .portfolio__item:hover{

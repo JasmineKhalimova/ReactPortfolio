@@ -30,8 +30,8 @@
     column-gap: 0.5rem;
 }
 
-.skills .bx-badge-check{
-    font-size: 1rem;
+.skills__badge-icon{
+    font-size: 1.2rem;
     color: var(--title-color);
 }
 
