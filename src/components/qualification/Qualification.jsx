@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './qualification.css';
+import { GiGraduateCap, GiBriefcase } from 'react-icons/gi';
+import { VscCalendar } from 'react-icons/vsc';
 
 const Qualification = () => {
     // Toggle between Qualification and Experiance
@@ -19,14 +21,14 @@ const Qualification = () => {
                     toggleState === 1 ? 'qualification__button button--flex qualification__active'
                     : 'qualification__button button--flex' } onClick = {() => toggleTab(1)}
                 >
-                     <i className='uil uil-briefcase qualification__icon'></i>
+                     <GiBriefcase className='qualification__icon'/>
                     {""} Experience
                 </div>
                 <div className={
                     toggleState === 2 ? 'qualification__button button--flex qualification__active'
                     : 'qualification__button button--flex' } onClick = {() => toggleTab(2)}
                 >
-                    <i className='uil uil-graduation-cap qualification__icon'></i>
+                    <GiGraduateCap className='qualification__icon'/>
                     {""} Education
                 </div>
             </div>
@@ -41,7 +43,7 @@ const Qualification = () => {
                             <h3 className='qualification__title'>Software Developer</h3>
                             <span className='qualification__subtitle'>Aonach, Kenmare Kerry Ireland</span>
                             <div className='qualification__calendar'>
-                                <i className='uil uil-calendar-alt'></i>
+                                <VscCalendar />
                                 June 2020 — Present
                             </div>
                         </div>
@@ -61,7 +63,7 @@ const Qualification = () => {
                             <h3 className='qualification__title'>Software Developer - Project Lead</h3>
                             <span className='qualification__subtitle'>Loadlink Technologies Mississauga, Canada</span>
                             <div className='qualification__calendar'>
-                                <i className='uil uil-calendar-alt'></i>
+                            <VscCalendar />
                                 July 2019 — June 2020
                             </div>
                         </div>
@@ -72,7 +74,7 @@ const Qualification = () => {
                             <h3 className='qualification__title'>Software Developer</h3>
                             <span className='qualification__subtitle'>FlightSafety International Toronto, Canada</span>
                             <div className='qualification__calendar'>
-                                <i className='uil uil-calendar-alt'></i>
+                                <VscCalendar />
                                 April 2019 — July 2019
                             </div>
                         </div>
@@ -92,7 +94,7 @@ const Qualification = () => {
                             <h3 className='qualification__title'>Web Developer</h3>
                             <span className='qualification__subtitle'>Apostrophe Solutions Corp, Toronto, Canada</span>
                             <div className='qualification__calendar'>
-                                <i className='uil uil-calendar-alt'></i>
+                                <VscCalendar />
                                 April 2019 — July 2019
                             </div>
                         </div>
@@ -109,7 +111,7 @@ const Qualification = () => {
                             <h3 className='qualification__title'>BSc in Information Technology</h3>
                             <span className='qualification__subtitle'>Dublin City University</span>
                             <div className='qualification__calendar'>
-                                <i className='uil uil-calendar-alt'></i>
+                                <VscCalendar />
                                 Sept 2016 — May 2020
                             </div>
                         </div>
@@ -129,7 +131,7 @@ const Qualification = () => {
                             <h3 className='qualification__title'>Leaving Certificate</h3>
                             <span className='qualification__subtitle'>Mount Mercy College</span>
                             <div className='qualification__calendar'>
-                                <i className='uil uil-calendar-alt'></i>
+                                <VscCalendar />
                                 Jan 2009 — June 2011
                             </div>
                         </div>

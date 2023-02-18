@@ -54,7 +54,9 @@ const Portfolio = () => {
                   <h3 className='portfolio__title'>Drinks Master</h3>
                   <span className='portfolio__subtitle'>Mobile Bartending</span>
                   <div className='portfolio__icons'>
-                    <a href='' target='_blank' rel="noreferrer"><FaGithub className='portfolio__icon'/></a>
+                    <a href='https://github.com/JasmineKhalimova/Party_Shakers' target='_blank' rel="noreferrer">
+                      <FaGithub className='portfolio__icon'/>
+                      </a>
                     <a href='http://drinksmarter.hol.es/' target='_blank' rel="noreferrer"><FaRegEye className='portfolio__icon'/></a>
                   </div>
                 </div>
@@ -88,7 +90,7 @@ const Portfolio = () => {
                   <h3 className='portfolio__title'>Quality Fitness</h3>
                   <span className='portfolio__subtitle'>Personal Tainer</span>
                   <div className='portfolio__icons'>
-                    <a href='' target='_blank' rel="noreferrer"><FaGithub className='portfolio__icon'/></a>
+                    <a href='/' target='_blank' rel="noreferrer"><FaGithub className='portfolio__icon'/></a>
                     <a href='http://qualityfitness.esy.es/' target='_blank' rel="noreferrer"><FaRegEye className='portfolio__icon'/></a>
                   </div>
                 </div>
