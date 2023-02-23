@@ -2,8 +2,7 @@
 
 This is simple portfolio template build in using React+hooks, CSS3, React icons, and Email.js for email-sending purposes.
 
-
-![ezgif com-crop](https://user-images.githubusercontent.com/34685374/220970641-e088914f-e391-4880-bd14-e86631b6b7eb.gif)
+![ezgif com-resize](https://user-images.githubusercontent.com/34685374/220971357-c3063da2-5406-4c96-853d-6331c80e8aac.gif)
 
 ### Tips
 
