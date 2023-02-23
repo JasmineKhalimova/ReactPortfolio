@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_dwrq3ef', 'template_1c8g04j', form.current, 'gWIRSE9iRN0stSynh')
+      emailjs.sendForm('service_dwrq3ef', '', form.current, 'gWIRSE9iRN0stSynh')
       .then((result) => {
             alert("Your Message has been sent");
         }, (error) => {
@@ -19,6 +19,8 @@ const Contact = () => {
         
       e.target.reset();
     };
+
+    const sendEmail = require('@sendgrid/mail')
 
   return (
     <section className='conatct section' id='contact'>

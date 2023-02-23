@@ -26,7 +26,7 @@ const About = () => {
                     <div className='about__box'>
                         <TbPhoneCall className='about__icon'/>
                         <h3 className='about__title'>Support</h3>
-                        <span className='about__subtitle'>Online 24/7</span>
+                        <span className='about__subtitle'>Online 24/5</span>
                     </div>
                 </div>
                 <p className='about__description'>
