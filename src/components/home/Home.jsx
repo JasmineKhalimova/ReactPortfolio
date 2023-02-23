@@ -11,9 +11,9 @@ const Home = () => {
                 <Social />
                 <div className='home__img'></div>
                 <div className='home__data'>
-                    <h1 className='home__title'>Jasmine Khalimova</h1>
-                    <h3 className='home__subtitle'>— Web Developer —</h3>
-                    <p className='home__description'>Experienced web developer with a passion for developing innovative applications.</p>
+                    <h1 className='home__title'>Jane Doe</h1>
+                    <h3 className='home__subtitle'>— Job Role —</h3>
+                    <p className='home__description'>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
                     <a href='#contact' className='button button--flex'>Get In Touch <AiOutlineSend className='send-icon'/></a>
                 </div>
             </div>

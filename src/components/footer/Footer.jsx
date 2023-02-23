@@ -8,7 +8,7 @@ const Footer = () => {
                 <p>Copyright© {(new Date().getFullYear())} <a href="https://web-brickdesign.com/">Web-Brick Design</a> </p>
             </div>
             <div className='developed'>
-                <p>Designed & Developed by Jasmine Khalimova</p>
+                <p>Designed & Developed by Web-Brick Design</p>
             </div>
         </div>
     </div>

@@ -41,7 +41,7 @@ const Qualification = () => {
                     <div className='qualification__data'>
                         <div>
                             <h3 className='qualification__title'>Software Developer</h3>
-                            <span className='qualification__subtitle'>Aonach, Kenmare Kerry Ireland</span>
+                            <span className='qualification__subtitle'>Company Name</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
                                 June 2020 — Present
@@ -60,8 +60,8 @@ const Qualification = () => {
                             <span className='qualification__line'></span>
                         </div>
                         <div>
-                            <h3 className='qualification__title'>Software Developer - Project Lead</h3>
-                            <span className='qualification__subtitle'>Loadlink Technologies Mississauga, Canada</span>
+                            <h3 className='qualification__title'>Software Developer</h3>
+                            <span className='qualification__subtitle'>Company Name</span>
                             <div className='qualification__calendar'>
                             <VscCalendar />
                                 July 2019 — June 2020
@@ -72,7 +72,7 @@ const Qualification = () => {
                     <div className='qualification__data'>
                         <div>
                             <h3 className='qualification__title'>Software Developer</h3>
-                            <span className='qualification__subtitle'>FlightSafety International Toronto, Canada</span>
+                            <span className='qualification__subtitle'>Company Name</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
                                 April 2019 — July 2019
@@ -91,8 +91,8 @@ const Qualification = () => {
                             <span className='qualification__line'></span>
                         </div>
                         <div>
-                            <h3 className='qualification__title'>Web Developer</h3>
-                            <span className='qualification__subtitle'>Apostrophe Solutions Corp, Toronto, Canada</span>
+                            <h3 className='qualification__title'>Software Developer</h3>
+                            <span className='qualification__subtitle'>Company Name</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
                                 April 2019 — July 2019
@@ -108,8 +108,8 @@ const Qualification = () => {
                     : 'qualification__content'} >
                                         <div className='qualification__data'>
                         <div>
-                            <h3 className='qualification__title'>BSc in Information Technology</h3>
-                            <span className='qualification__subtitle'>Dublin City University</span>
+                            <h3 className='qualification__title'>Degree Name</h3>
+                            <span className='qualification__subtitle'>University</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
                                 Sept 2016 — May 2020
@@ -128,8 +128,8 @@ const Qualification = () => {
                             <span className='qualification__line'></span>
                         </div>
                         <div>
-                            <h3 className='qualification__title'>Leaving Certificate</h3>
-                            <span className='qualification__subtitle'>Mount Mercy College</span>
+                            <h3 className='qualification__title'>Degree Name</h3>
+                            <span className='qualification__subtitle'>University</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
                                 Jan 2009 — June 2011

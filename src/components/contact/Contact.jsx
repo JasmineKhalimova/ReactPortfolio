@@ -10,7 +10,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_dwrq3ef', '', form.current, 'gWIRSE9iRN0stSynh')
+      emailjs.sendForm('service_dwrq3ef', 'template_1c8g04j', form.current, 'gWIRSE9iRN0stSynh')
       .then((result) => {
             alert("Your Message has been sent");
         }, (error) => {
@@ -19,8 +19,6 @@ const Contact = () => {
         
       e.target.reset();
     };
-
-    const sendEmail = require('@sendgrid/mail')
 
   return (
     <section className='conatct section' id='contact'>
@@ -32,12 +30,12 @@ const Contact = () => {
             <h3 className='contact__title'>Conatact Info</h3>
             <div className='contact__info'>
                 <div className='contact__card'>
-                    <a href='https://www.linkedin.com/in/jasmine-k-5bb6a9151/'>
+                    <a href='/'>
                         <h3 className='contact__card-title'>Linkedin <AiFillLinkedin className='contact__card-icon'/></h3>
                     </a>
                 </div>
                 <div className='contact__card'>
-                    <a href='https://github.com/JasmineKhalimova'>
+                    <a href='/'>
                         <h3 className='contact__card-title'>GitHub <AiFillGithub className='contact__card-icon'/></h3>
                     </a>
                 </div>

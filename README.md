@@ -1,6 +1,6 @@
-### New Portfolio
+### Portfolio Templates build in React
 
-More details to come
+This is simple portfolio template build in using React+hooks, CSS3, React icons, and Email.js for email-sending purposes.
 
 ### Tips
 
