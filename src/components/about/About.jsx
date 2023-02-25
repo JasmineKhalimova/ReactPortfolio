@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import '../../assets/profile-img.jpeg'
+import '../../assets/about.jpg'
 import CV from '../../assets/cv.pdf';
 import { TbAward, TbBriefcase, TbPhoneCall, TbFileDownload} from 'react-icons/tb';
 
@@ -10,7 +10,7 @@ const About = () => {
         <h2 className='section__title'> About Me</h2>
         <h3 className='section__subtitle'>Personal Summary</h3>
         <div className='about__container container grid'>
-            <img src={require('../../assets/profile-img.jpeg')} alt='Profile' title='Profile' className='about__img'/>
+            <img src={require('../../assets/about.jpg')} alt='Profile' title='Profile' className='about__img'/>
             <div className='about__data'>
                 <div className='about__info grid'>
                     <div className='about__box'>
