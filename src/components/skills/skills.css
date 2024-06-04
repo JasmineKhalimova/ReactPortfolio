@@ -55,4 +55,8 @@
     .skills__container{
         grid-template-columns: repeat(1,minmax(0,1fr));
     }
+
+    .skills__content{
+        padding: 2rem;
+    }
 }

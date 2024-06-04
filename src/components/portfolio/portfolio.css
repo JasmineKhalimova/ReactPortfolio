@@ -51,7 +51,7 @@
 
 .portfolio__items{
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    align-items: baseline;
     column-gap: 1rem;
 }
 

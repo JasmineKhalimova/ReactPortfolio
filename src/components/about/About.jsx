@@ -10,23 +10,18 @@ const About = () => {
         <h2 className='section__title'> About Me</h2>
         <h3 className='section__subtitle'>Personal Summary</h3>
         <div className='about__container container grid'>
-            <img src={require('../../assets/profile-img.jpeg')} alt='Profile' title='Profile' className='about__img'/>
+            <img src={require('../../assets/about.jpg')} alt='Profile' title='Profile' className='about__img'/>
             <div className='about__data'>
                 <div className='about__info grid'>
                     <div className='about__box'>
                         <TbAward className='about__icon'/>
                         <h3 className='about__title'>Experience</h3>
-                        <span className='about__subtitle'>5 Years Working</span>
+                        <span className='about__subtitle'>6+ Years Working</span>
                     </div>
                     <div className='about__box'>
                         <TbBriefcase className='about__icon'/>
                         <h3 className='about__title'>Completed</h3>
                         <span className='about__subtitle'>45+ Projects</span>
-                    </div>
-                    <div className='about__box'>
-                        <TbPhoneCall className='about__icon'/>
-                        <h3 className='about__title'>Support</h3>
-                        <span className='about__subtitle'>Online 24/5</span>
                     </div>
                 </div>
                 <p className='about__description'>
