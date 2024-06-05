@@ -1,5 +1,5 @@
 .qualification__container{
-    max-width: 768px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,8 +67,8 @@
 .qualification__calendar{
     font-size: var(--smaller-font-size);
     display: flex;
-    align-items: center;
-    gap: 1px;
+    align-items: baseline;
+    gap: 2px;
 }
 
 .qualification__rounder{
@@ -90,6 +90,5 @@
 @media screen and (max-width: 576px){
     .qualification__sections{
         grid-template-columns: initial;
-        padding: 1rem;
     }
 }

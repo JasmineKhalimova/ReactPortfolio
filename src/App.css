@@ -102,6 +102,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: var(--text-color);
 }
 
 button{
@@ -117,7 +118,7 @@ img{
 
 /**==== Reusable classes ====**/
 .section{
-    padding: 6rem 0 2rem;
+    padding: 4rem 0 2rem;
 }
 
 .section__title-large{
@@ -159,7 +160,7 @@ img{
     display: inline-block;
     background-color: var(--title-color);
     color: var(--container-color);
-    padding: 1.25rem 2rem;
+    padding: 0.8rem 1.2rem;
     border-radius: 1rem;
     font-weight: var(--font-medium);
 }

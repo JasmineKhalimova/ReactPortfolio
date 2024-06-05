@@ -5,7 +5,7 @@
 }
 
 .about__img{
-    width: 350px;
+    width: 380px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -57,10 +57,6 @@
         row-gap: 2.5rem;
     }
 
-    .about__img{
-        width: 220px;
-    }
-
     .about__box{
         padding: 0.75rem 0.5rem;
     }
@@ -86,5 +82,8 @@
     }
     .about__description{
         padding: 0;
+    }
+    .about__img{
+        display: none;
     }
 }

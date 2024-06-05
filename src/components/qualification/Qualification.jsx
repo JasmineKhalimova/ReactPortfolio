@@ -32,7 +32,7 @@ const Qualification = () => {
                     {""} Education
                 </div>
             </div>
-            <div className='qualification__sections'>
+            <div className='qualification__sections container'>
 
                 {/* Qualification/ Education */}
                 <div className={
@@ -44,7 +44,7 @@ const Qualification = () => {
                             <span className='qualification__subtitle'>Aonach, Kenmare Kerry Ireland</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
-                                June 2020 — Present
+                                July 2020 — Present
                             </div>
                         </div>
                         <div>
@@ -63,8 +63,8 @@ const Qualification = () => {
                             <h3 className='qualification__title'>Software Developer - Project Lead</h3>
                             <span className='qualification__subtitle'>Loadlink Technologies Mississauga, Canada</span>
                             <div className='qualification__calendar'>
-                            <VscCalendar />
-                                July 2019 — June 2020
+                                <VscCalendar />
+                                August 2019 — June 2020
                             </div>
                         </div>
                     </div>
@@ -105,8 +105,7 @@ const Qualification = () => {
                 {/* Experiences */}
                 <div className={
                     toggleState === 2 ? 'qualification__content qualification__content-active'
-                    : 'qualification__content'} >
-                                        <div className='qualification__data'>
+                    : 'qualification__content'} > <div className='qualification__data'>
                         <div>
                             <h3 className='qualification__title'>BSc in Information Technology</h3>
                             <span className='qualification__subtitle'>Dublin City University</span>
@@ -132,7 +131,7 @@ const Qualification = () => {
                             <span className='qualification__subtitle'>Mount Mercy College</span>
                             <div className='qualification__calendar'>
                                 <VscCalendar />
-                                Jan 2009 — June 2011
+                                Sept 2008 — June 2011
                             </div>
                         </div>
                     </div>

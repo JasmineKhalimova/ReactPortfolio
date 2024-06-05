@@ -16,7 +16,7 @@ const About = () => {
                     <div className='about__box'>
                         <TbAward className='about__icon'/>
                         <h3 className='about__title'>Experience</h3>
-                        <span className='about__subtitle'>6+ Years Working</span>
+                        <span className='about__subtitle'>5+ Years Working</span>
                     </div>
                     <div className='about__box'>
                         <TbBriefcase className='about__icon'/>

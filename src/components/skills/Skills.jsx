@@ -18,10 +18,9 @@ const Skills = () => {
               <div>
                 <h3 className='skills__name'>
                   <b>Frontend Technologies: </b>
-                  HTML5, CSS3(LESS & SASS), Bootstrap, 
-                  Tailwind CSS, Vanilla JavaScript, jQuery, React.js
+                  HTML5, CSS3 (LESS, SASS, Tailwind & Bootstrap), JavaScript,
+                   Typescript, jQuery, React.js and Alphine.js
                 </h3>
-                <span className='skills__level'>Advanced</span>
               </div>
             </div>
             <div className='skills__data'>
@@ -31,7 +30,6 @@ const Skills = () => {
                   <b>Application Programming Interfaces: </b>
                    REST APIs, JSON, and XML
                 </h3>
-                <span className='skills__level'>Basic</span>
               </div>
             </div>
             <div className='skills__data'>
@@ -42,19 +40,15 @@ const Skills = () => {
                   Using Android Studio – Java Marshmallow API 23 and
                   Firebase cloud
                 </h3>
-                <span className='skills__level'>Basic</span>
               </div>
             </div>
-          </div>
-          <div className='skills__group'>
             <div className='skills__data'>
             <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
                   <b>Graphic design: </b>
-                  Adobe Photoshop and AdobeIllustrator.
+                  Adobe Photoshop, Illustrator and Figma
                 </h3>
-                <span className='skills__level'>Advanced</span>
               </div>
             </div>
             <div className='skills__data'>
@@ -65,17 +59,15 @@ const Skills = () => {
                   Experienced in developing
                   digital solutions that comply with WCAG 2.0
                 </h3>
-                <span className='skills__level'>Advanced</span>
               </div>
             </div>
             <div className='skills__data'>
             <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
-                  <b>Testing: </b> A/B, unit & manual testing, and Q/A
-                  experience (BrowserStack)
+                  <b>Testing: </b>
+                  A/B, Unit & Manual testing (Frameworks: Jasmine & Cypress) and Q/A (BrowserStack)
                 </h3>
-                <span className='skills__level'>Advanced</span>
               </div>
             </div>
           </div>
@@ -91,31 +83,26 @@ const Skills = () => {
                   <b>Backend Technologies: </b>
                   PHP and Node.js
                 </h3>
-                <span className='skills__level'>Intermediate</span>
               </div>
             </div>
             <div className='skills__data'>
             <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
-                  <b>Full Stack: </b> Linux, Apache, MySQL, PHP (LAMP)
+                  <b>Tech Stack: </b> Linux, Apache, MySQL, PHP (LAMP)
                   & MongoDB, Express.js, React.js, Node.js (MERN)
                 </h3>
-                <span className='skills__level'>Intermediate</span>
               </div>
             </div>
             <div className='skills__data'>
             <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
-                  <b>Databases: </b> MySQL, NoSQL (MongoDB) and
-                  Firebase Cloud.
+                  <b>Databases: </b> 
+                  MySQL and NoSQL (MongoDB & Firebase)
                 </h3>
-                <span className='skills__level'>Intermediate</span>
               </div>
             </div>
-          </div>
-          <div className='skills__group'>
             <div className='skills__data'>
             <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
@@ -123,17 +110,14 @@ const Skills = () => {
                   <b>Version control systems: </b> 
                   Git Lab, GitHub, Azure Repos and Bitbucket.
                 </h3>
-                <span className='skills__level'>Advanced</span>
               </div>
             </div>
             <div className='skills__data'>
             <HiOutlineBadgeCheck className='skills__badge-icon'/>
               <div>
                 <h3 className='skills__name'>
-                  <b>Operating Systems: </b> Linux (Ubuntu desktop
-                  version 18.04), Windows and Macintosh
+                  <b>Operating Systems: </b> Linux (Ubuntu), Windows and Macintosh
                 </h3>
-                <span className='skills__level'>Advanced</span>
               </div>
             </div>
             <div className='skills__data'>
@@ -143,7 +127,6 @@ const Skills = () => {
                   <b>Cloud Computing: </b> Google Cloud, Microsoft
                   Azure and Amazon AWS and MongoDB Atlas, Nexcess
                 </h3>
-                <span className='skills__level'>Basic</span>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
+  "hostpage": "https://www.web-brickdesign.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
