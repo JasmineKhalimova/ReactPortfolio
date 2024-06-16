@@ -53,6 +53,7 @@ nav{
     .header{
         top: initial;
         bottom: 0;
+        min-height: 70px;
     }
 
     .nav{
