@@ -14,7 +14,7 @@ const Qualification = () => {
   return (
     <section className='about section' id='about'>
         <h2 className='section__title'>Qualification & Education</h2>
-        <h3 className='section__subtitle'>My education and experiences</h3>
+        <h3 className='section__subtitle'>Education and experiences</h3>
         <div className='qualification__container container'>
             <div className='qualification__tabs'>
                 <div className={

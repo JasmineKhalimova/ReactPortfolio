@@ -12,8 +12,8 @@ const Home = () => {
                 <div className='home__img'></div>
                 <div className='home__data'>
                     <h1 className='home__title'>Jasmine Khalimova</h1>
-                    <h3 className='home__subtitle'>— Web Developer —</h3>
-                    <p className='home__description'>Experienced web developer with a passion for developing innovative applications.</p>
+                    <h3 className='home__subtitle'>— Software Developer —</h3>
+                    <p className='home__description'>Experienced software  developer with a passion for developing innovative applications.</p>
                     <a href='#contact' className='button button--flex'>Get In Touch <AiOutlineSend className='send-icon'/></a>
                 </div>
             </div>

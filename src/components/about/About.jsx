@@ -1,8 +1,7 @@
 import React from 'react';
 import './about.css';
 import '../../assets/profile-img.jpeg'
-import CV from '../../assets/cv.pdf';
-import { TbAward, TbBriefcase, TbPhoneCall, TbFileDownload} from 'react-icons/tb';
+import { TbAward, TbBriefcase} from 'react-icons/tb';
 
 const About = () => {
   return (
@@ -25,15 +24,13 @@ const About = () => {
                     </div>
                 </div>
                 <p className='about__description'>
-                    Experienced web developer with a passion for developing innovative applications that expedite the efficiency 
-                    and effectiveness of organizational success. Well-versed in technology and writing code to create systems 
-                    that are reliable and user-friendly. Skilled team player who has the proven ability to motivate, educate, and 
-                    manage a team of professionals to build software programs and effectively track changes. 
+                    Experienced software developer with over 5 years of expertise in designing and implementing
+                     innovative applications that significantly improve organizational efficiency and effectiveness.
+                      Proficient in modern JavaScript frameworks like React and Alphine Experienced in cloud technologies
+                       like Google Cloud, Microsoft Azure, Amazon AWS and so on. Adept at collaborating within Agile/Scrum
+                        environments, leading teams to achieve project goals, and utilising a broad range of technologies
+                         to create reliable and user-friendly systems.
                 </p>
-                <a download="" href={CV} className='button button--flex'>
-                    Download CV
-                    <TbFileDownload />
-                </a>
             </div>
         </div>
     </section>
