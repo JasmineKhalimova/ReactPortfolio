@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaRegEye, FaGithub } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 import './portfolio.css';
 
 const Portfolio = () => {
@@ -12,19 +12,24 @@ const Portfolio = () => {
   return (
     <section className='portfolio section' id='portfolio'>
         <h2 className='section__title'> Portfolio</h2>
-        <h3 className='section__subtitle'>Porjects</h3>
+        <span className='section__subtitle'>
+          I have completed several independent projects for small local businesses across Ireland, 
+          offering my services free of charge as a way to contribute to the local community. Additionally,
+           I have worked on personal projects to keep up with new languages, libraries, and frameworks, 
+           continually expanding my skill set and staying current in the ever-evolving tech landscape.
+         </span>
         <div className='box portfolio_container container'>
           {/* Tab Heading */}
           <div className='tabs'>
             <div className={
                     toggleState === 1 ? 'portfolio__button button--flex portfolio__active'
                     : 'portfolio__button button--flex' } onClick = {() => toggleTab(1)}
-            >Web Apps</div>
+            >Independent Projects</div>
 
             <div className={
                     toggleState === 2 ? 'portfolio__button button--flex portfolio__active'
                     : 'portfolio__button button--flex' } onClick = {() => toggleTab(2)}
-            >Mobile Apps</div>
+            >Personal Projects</div>
           </div>
 
           {/* Tab Content */}
@@ -38,10 +43,12 @@ const Portfolio = () => {
                     alt='Portfolio Image' 
                     title='Portfolio Image' 
                     className='portfolio__item_img'/>
-                    <h3 className='portfolio__title'>Trend</h3>
-                    <span className='portfolio__subtitle'>Health & Beauty Salon</span>
-                    <div className='portfolio__icons'>
-                      <FaRegEye className='portfolio__icon'/>
+                    <div className='portfolio__item_content'>
+                      <h3 className='portfolio__title'>Trend</h3>
+                      <span className='portfolio__subtitle'>Health & Beauty Salon</span>
+                      <div className='portfolio__icons'>
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -53,10 +60,12 @@ const Portfolio = () => {
                     alt='Portfolio Image' 
                     title='Portfolio Image' 
                     className='portfolio__item_img'/>
-                    <h3 className='portfolio__title'>Eamonn Lynch</h3>
-                    <span className='portfolio__subtitle'>Upholstery Services</span>
-                    <div className='portfolio__icons'>
-                      <FaRegEye className='portfolio__icon'/>
+                    <div className='portfolio__item_content'>
+                      <h3 className='portfolio__title'>Eamonn Lynch</h3>
+                      <span className='portfolio__subtitle'>Upholstery Services</span>
+                      <div className='portfolio__icons'>
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -68,10 +77,12 @@ const Portfolio = () => {
                     alt='Portfolio Image' 
                     title='Portfolio Image' 
                     className='portfolio__item_img'/>
-                    <h3 className='portfolio__title'>Magic Thread </h3>
-                    <span className='portfolio__subtitle'>Dress making and alterations</span>
-                    <div className='portfolio__icons'>
-                      <FaRegEye className='portfolio__icon'/>
+                    <div className='portfolio__item_content'>
+                      <h3 className='portfolio__title'>Magic Thread </h3>
+                      <span className='portfolio__subtitle'>Dress making and alterations</span>
+                      <div className='portfolio__icons'>
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -83,25 +94,29 @@ const Portfolio = () => {
                     alt='Portfolio Image' 
                     title='Portfolio Image' 
                     className='portfolio__item_img'/>
-                    <h3 className='portfolio__title'>Party Shakers</h3>
-                    <span className='portfolio__subtitle'>Mobile Bartending and Catering Service</span>
-                    <div className='portfolio__icons'>
-                      <FaRegEye className='portfolio__icon'/>
+                    <div className='portfolio__item_content'>
+                      <h3 className='portfolio__title'>Party Shakers</h3>
+                      <span className='portfolio__subtitle'>Mobile Bartending and Catering Service</span>
+                      <div className='portfolio__icons'>
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </div>
                     </div>
                   </a>
                 </div>
 
                 <div className='portfolio__item'>
-                  <a href='https://partyshakers.co/' target='_blank' rel="noreferrer">
+                  <a href='https://christineloh.art/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/chrissy-art.jpg')} 
                     width="530"  height="490" 
                     alt='Portfolio Image' 
                     title='Portfolio Image' 
                     className='portfolio__item_img'/>
-                    <h3 className='portfolio__title'>CHRISTINE LOH</h3>
-                    <span className='portfolio__subtitle'>CONTEMPORARY ART</span>
-                    <div className='portfolio__icons'>
-                      <FaRegEye className='portfolio__icon'/>
+                    <div className='portfolio__item_content'>
+                      <h3 className='portfolio__title'>CHRISTINE LOH</h3>
+                      <span className='portfolio__subtitle'>CONTEMPORARY ART</span>
+                      <div className='portfolio__icons'>
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -113,10 +128,12 @@ const Portfolio = () => {
                     alt='Portfolio Image' 
                     title='Portfolio Image' 
                     className='portfolio__item_img'/>
-                    <h3 className='portfolio__title'>Permanent Makeup</h3>
-                    <span className='portfolio__subtitle'>Luxury Permanent Makeup Artist</span>
-                    <div className='portfolio__icons'>
-                      <FaRegEye className='portfolio__icon'/>
+                    <div className='portfolio__item_content'>
+                      <h3 className='portfolio__title'>Permanent Makeup</h3>
+                      <span className='portfolio__subtitle'>Luxury Permanent Makeup Artist</span>
+                      <div className='portfolio__icons'>
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </div>
                     </div>
                   </a>
                 </div>
@@ -127,13 +144,14 @@ const Portfolio = () => {
                   alt='Portfolio Image' 
                   title='Portfolio Image' 
                   className='portfolio__item_img'/>
-                  <h3 className='portfolio__title'>Quality Fitness</h3>
-                  <span className='portfolio__subtitle'>Personal Tainer</span>
-                  <div className='portfolio__icons'>
-                    <a href='/' target='_blank' rel="noreferrer"><FaGithub className='portfolio__icon'/></a>
-                    <a href='http://qualityfitness.esy.es/' target='_blank' rel="noreferrer">
-                      <FaRegEye className='portfolio__icon'/>
-                    </a>
+                  <div className='portfolio__item_content'>
+                    <h3 className='portfolio__title'>Quality Fitness</h3>
+                    <span className='portfolio__subtitle'>Personal Tainer</span>
+                    <div className='portfolio__icons'>
+                      <a href='http://qualityfitness.esy.es/' target='_blank' rel="noreferrer">
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -143,14 +161,13 @@ const Portfolio = () => {
                   alt='Portfolio Image'
                   title='Portfolio Image' 
                   className='portfolio__item_img'/>
-                  <h3 className='portfolio__title'>Drinks Master</h3>
-                  <span className='portfolio__subtitle'>Mobile Bartending</span>
-                  <div className='portfolio__icons'>
-                    <a href='https://github.com/JasmineKhalimova/Party_Shakers' target='_blank' rel="noreferrer">
-                      <FaGithub className='portfolio__icon'/>
-                      </a>
-                    <a href='http://drinksmarter.hol.es/' target='_blank' rel="noreferrer">
-                    <FaRegEye className='portfolio__icon'/></a>
+                  <div className='portfolio__item_content'>
+                    <h3 className='portfolio__title'>Drinks Master</h3>
+                    <span className='portfolio__subtitle'>Mobile Bartending</span>
+                    <div className='portfolio__icons'>
+                      <a href='http://drinksmarter.hol.es/' target='_blank' rel="noreferrer">
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/></a>
+                    </div>
                   </div>
                 </div>
 
@@ -160,15 +177,14 @@ const Portfolio = () => {
                   alt='Portfolio Image' 
                   title='Portfolio Image' 
                   className='portfolio__item_img'/>
-                  <h3 className='portfolio__title'>Wilton Walk-In Clinc</h3>
-                  <span className='portfolio__subtitle'>Walk-in GP Clinic</span>
-                  <div className='portfolio__icons'>
-                    <a href='https://github.com/JasmineKhalimova/WalkInClinic' target='_blank' rel="noreferrer">
-                      <FaGithub className='portfolio__icon'/>
-                    </a>
-                    <a href='http://wiltonwalkin.esy.es/' target='_blank' rel="noreferrer">
-                        <FaRegEye className='portfolio__icon'/>
-                    </a>
+                  <div className='portfolio__item_content'>
+                    <h3 className='portfolio__title'>Wilton Walk-In Clinc</h3>
+                    <span className='portfolio__subtitle'>Walk-in GP Clinic</span>
+                    <div className='portfolio__icons'>
+                      <a href='http://wiltonwalkin.esy.es/' target='_blank' rel="noreferrer">
+                        Visit Website <FaExternalLinkAlt className='portfolio__icon'/>
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -176,18 +192,20 @@ const Portfolio = () => {
             </div>
             <div className={toggleState === 2 ? 'portfolio__content portfolio__content-active' : 'portfolio__content'}>
             <div className='portfolio__items grid'>
-                <div className='portfolio__item'>
-                  <img src={require('../../assets/portfolio/remax_mobile.jpg')} 
+              <div className='portfolio__item'>
+                  <img src={require('../../assets/portfolio/book-nook.jpg')} 
                   width="530"  height="490" 
                   alt='Portfolio Image' 
                   title='Portfolio Image' 
                   className='portfolio__item_img'/>
-                  <h3 className='portfolio__title'>Real Estate: Android Application </h3>
-                  <div className='portfolio__icons'>
-                    <a href='https://github.com/JasmineKhalimova/Real_Estate_Management_System' target='_blank' rel="noreferrer">
-                      <FaGithub className='portfolio__icon'/>
+                  <div className='portfolio__item_content'>
+                    <h3 className='portfolio__title'>The Book Nook</h3>
+                    <span className='portfolio__subtitle'>Tech stack: MERN stack</span>
+                    <div className='portfolio__icons'>
+                      <a href='https://github.com/JasmineKhalimova/BookStore' target='_blank' rel="noreferrer">
+                        Source Code <FaGithub className='portfolio__icon'/>
                       </a>
-                    <a href='http://remax.esy.es/' target='_blank' rel="noreferrer"><FaRegEye className='portfolio__icon'/></a>
+                    </div>
                   </div>
                 </div>
 
@@ -197,11 +215,33 @@ const Portfolio = () => {
                   alt='Portfolio Image' 
                   title='Portfolio Image' 
                   className='portfolio__item_img'/>
-                  <h3 className='portfolio__title'>Real Estate: Web Application</h3>
-                  <div className='portfolio__icons'>
-                    <a href='https://github.com/JasmineKhalimova/Android_Real_Estate_App' target='_blank' rel="noreferrer">
-                      <FaGithub className='portfolio__icon'/>
-                    </a>
+                  <div className='portfolio__item_content'>
+                    <h3 className='portfolio__title'>Real Estate: Web App</h3>
+                    <span className='portfolio__subtitle'>Tech stack: LAMP stack</span>
+                    <div className='portfolio__icons'>
+                      <a href='https://github.com/JasmineKhalimova/Real_Estate_Management_System' target='_blank' rel="noreferrer">
+                        Source Code <FaGithub className='portfolio__icon'/>
+                        </a>
+                      <a href='http://remax.esy.es/' target='_blank' rel="noreferrer">
+                        Demo <FaExternalLinkAlt className='portfolio__icon'/></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className='portfolio__item'>
+                  <img src={require('../../assets/portfolio/remax_mobile.jpg')} 
+                  width="530"  height="490" 
+                  alt='Portfolio Image' 
+                  title='Portfolio Image' 
+                  className='portfolio__item_img'/>
+                  <div className='portfolio__item_content'>
+                    <h3 className='portfolio__title'>Real Estate: Android App</h3>
+                    <span className='portfolio__subtitle'>Tech: Java (Android studio & Firebase)</span>
+                    <div className='portfolio__icons'>
+                      <a href='https://github.com/JasmineKhalimova/Android_Real_Estate_App' target='_blank' rel="noreferrer">
+                        Source Code <FaGithub className='portfolio__icon'/>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

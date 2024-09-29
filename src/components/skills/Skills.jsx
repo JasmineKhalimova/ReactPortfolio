@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <section className='skills section' id='skills'>
       <h2 className='section__title'>Skills</h2>
-      <h3 className='section__subtitle'>Technical Skills</h3>
+      <span className='section__subtitle'>Technical Skills</span>
       <div className='skills__container container grid'>
         {/* Frontend */}
         <div className='skills__content'>
@@ -14,7 +14,7 @@ const Skills = () => {
                 <p className='skills__name'>
                   - <b>Frontend Technologies: </b>
                   Advanced proficiency in HTML5, CSS3 (LESS, SASS, Tailwind & Bootstrap), 
-                  React.js, React Native, JavaScript, TypeScript, Alphine.js and modern frameworks.
+                  React.js, React Native, JavaScript/ES6, TypeScript, Alphine.js and jQuery
                 </p>
             </div>
             <div className='skills__data'>
@@ -82,7 +82,7 @@ const Skills = () => {
             </div>
             <div className='skills__data'>
                 <p className='skills__name'>
-                  - <b>Operating Systems: </b> Linux (Ubuntu), Windows and Macintosh
+                  - <b>Operating Systems: </b> Linux (Ubuntu 18.04 and 20.04), Windows and Macintosh
                 </p>
             </div>
             <div className='skills__data'>

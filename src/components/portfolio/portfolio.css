@@ -61,7 +61,6 @@
 .portfolio__item {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem 1rem;
     border-radius: 1.25rem;
 }
 .portfolio__item:hover{
@@ -69,7 +68,7 @@
 }
 
 .portfolio__icon{
-    font-size: 1.6rem;
+    font-size: 0.9rem;
     color: var(--text-color);
     margin-right: 1rem;
     cursor: pointer;
@@ -83,8 +82,12 @@
     border-radius: 1rem;
 }
 
+.portfolio__item_content{
+    padding: 1rem;
+}
+
 .portfolio__icons{
-    margin-top: 0.5rem;
+    text-align: right;
 }
 
 @media screen and (max-width: 576px){

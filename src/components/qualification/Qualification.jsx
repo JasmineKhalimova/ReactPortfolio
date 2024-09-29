@@ -4,7 +4,7 @@ import { GiGraduateCap, GiBriefcase } from 'react-icons/gi';
 import { VscCalendar } from 'react-icons/vsc';
 
 const Qualification = () => {
-    // Toggle between Qualification and Experiance
+    // Toggle between Career Experience and Experiance
     const [toggleState, setToggleState] = useState(1);
     
     const toggleTab = (index) => {
@@ -13,8 +13,8 @@ const Qualification = () => {
 
   return (
     <section className='about section' id='about'>
-        <h2 className='section__title'>Qualification & Education</h2>
-        <h3 className='section__subtitle'>Education and experiences</h3>
+        <h2 className='section__title'>Career Experience & Education</h2>
+        <span className='section__subtitle'>Education and experiences</span>
         <div className='qualification__container container'>
             <div className='qualification__tabs'>
                 <div className={
@@ -22,7 +22,7 @@ const Qualification = () => {
                     : 'qualification__button button--flex' } onClick = {() => toggleTab(1)}
                 >
                      <GiBriefcase className='qualification__icon'/>
-                    {""} Experience
+                    {""} Career Experience
                 </div>
                 <div className={
                     toggleState === 2 ? 'qualification__button button--flex qualification__active'

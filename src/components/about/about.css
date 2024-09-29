@@ -20,6 +20,11 @@
     text-align: center;
     font-size: var(--small-font-size);
     margin-bottom: 2rem;
+    max-width: 767px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    display: block;
 }
 
 .about__box{
