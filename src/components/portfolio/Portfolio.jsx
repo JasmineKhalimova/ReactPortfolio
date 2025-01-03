@@ -40,8 +40,8 @@ const Portfolio = () => {
                   <a href='https://www.trendhealthandbeauty.com/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/trend.png')} 
                     width="530"  height="490" 
-                    alt='Portfolio Image' 
-                    title='Portfolio Image' 
+                    alt='Portfolio' 
+                    title='Health & Beauty Salon' 
                     className='portfolio__item_img'/>
                     <div className='portfolio__item_content'>
                       <h3 className='portfolio__title'>Trend</h3>
@@ -57,8 +57,8 @@ const Portfolio = () => {
                   <a href='https://eamonnlynchupholstery.com/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/upholestry.png')} 
                     width="530"  height="490" 
-                    alt='Portfolio Image' 
-                    title='Portfolio Image' 
+                    alt='Portfolio' 
+                    title='Upholstery Services' 
                     className='portfolio__item_img'/>
                     <div className='portfolio__item_content'>
                       <h3 className='portfolio__title'>Eamonn Lynch</h3>
@@ -74,8 +74,8 @@ const Portfolio = () => {
                   <a href='https://www.magicthreadcork.com/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/magic_thread.png')} 
                     width="530"  height="490" 
-                    alt='Portfolio Image' 
-                    title='Portfolio Image' 
+                    alt='Portfolio' 
+                    title='Magic Thread' 
                     className='portfolio__item_img'/>
                     <div className='portfolio__item_content'>
                       <h3 className='portfolio__title'>Magic Thread </h3>
@@ -91,8 +91,8 @@ const Portfolio = () => {
                   <a href='https://partyshakers.co/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/partyshakers.jpg')} 
                     width="530"  height="490" 
-                    alt='Portfolio Image' 
-                    title='Portfolio Image' 
+                    alt='Portfolio' 
+                    title='Mobile Bartending' 
                     className='portfolio__item_img'/>
                     <div className='portfolio__item_content'>
                       <h3 className='portfolio__title'>Party Shakers</h3>
@@ -108,8 +108,8 @@ const Portfolio = () => {
                   <a href='https://christineloh.art/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/chrissy-art.jpg')} 
                     width="530"  height="490" 
-                    alt='Portfolio Image' 
-                    title='Portfolio Image' 
+                    alt='Portfolio' 
+                    title='CONTEMPORARY ART' 
                     className='portfolio__item_img'/>
                     <div className='portfolio__item_content'>
                       <h3 className='portfolio__title'>CHRISTINE LOH</h3>
@@ -125,8 +125,8 @@ const Portfolio = () => {
                   <a href='https://pmu.ie/' target='_blank' rel="noreferrer">
                     <img src={require('../../assets/portfolio/olena.png')} 
                     width="530"  height="490" 
-                    alt='Portfolio Image' 
-                    title='Portfolio Image' 
+                    alt='Portfolio' 
+                    title='Permanent Makeup' 
                     className='portfolio__item_img'/>
                     <div className='portfolio__item_content'>
                       <h3 className='portfolio__title'>Permanent Makeup</h3>
@@ -141,8 +141,8 @@ const Portfolio = () => {
                 <div className='portfolio__item'>
                   <img src={require('../../assets/portfolio/fitness.png')} 
                   width="530"  height="490" 
-                  alt='Portfolio Image' 
-                  title='Portfolio Image' 
+                  alt='Portfolio' 
+                  title='Quality Fitness' 
                   className='portfolio__item_img'/>
                   <div className='portfolio__item_content'>
                     <h3 className='portfolio__title'>Quality Fitness</h3>
@@ -158,8 +158,8 @@ const Portfolio = () => {
                 <div className='portfolio__item'>
                   <img src={require('../../assets/portfolio/drinks_master.png')} 
                   width="530"  height="490" 
-                  alt='Portfolio Image'
-                  title='Portfolio Image' 
+                  alt='Portfolio'
+                  title='Drinks Master' 
                   className='portfolio__item_img'/>
                   <div className='portfolio__item_content'>
                     <h3 className='portfolio__title'>Drinks Master</h3>
@@ -174,11 +174,11 @@ const Portfolio = () => {
                 <div className='portfolio__item'>
                   <img src={require('../../assets/portfolio/walk-in.jpg')} 
                   width="530"  height="490" 
-                  alt='Portfolio Image' 
-                  title='Portfolio Image' 
+                  alt='Portfolio' 
+                  title='Walk-In Clinic' 
                   className='portfolio__item_img'/>
                   <div className='portfolio__item_content'>
-                    <h3 className='portfolio__title'>Wilton Walk-In Clinc</h3>
+                    <h3 className='portfolio__title'>Wilton Walk-In Clinic</h3>
                     <span className='portfolio__subtitle'>Walk-in GP Clinic</span>
                     <div className='portfolio__icons'>
                       <a href='http://wiltonwalkin.esy.es/' target='_blank' rel="noreferrer">
@@ -195,8 +195,8 @@ const Portfolio = () => {
               <div className='portfolio__item'>
                   <img src={require('../../assets/portfolio/book-nook.jpg')} 
                   width="530"  height="490" 
-                  alt='Portfolio Image' 
-                  title='Portfolio Image' 
+                  alt='Portfolio' 
+                  title='Book Nook' 
                   className='portfolio__item_img'/>
                   <div className='portfolio__item_content'>
                     <h3 className='portfolio__title'>The Book Nook</h3>
@@ -205,6 +205,9 @@ const Portfolio = () => {
                       <a href='https://github.com/JasmineKhalimova/BookStore' target='_blank' rel="noreferrer">
                         Source Code <FaGithub className='portfolio__icon'/>
                       </a>
+                      <a href='http://77.243.85.42/' target='_blank' rel="noreferrer">
+                        Demo <FaExternalLinkAlt className='portfolio__icon'/>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -212,8 +215,8 @@ const Portfolio = () => {
                 <div className='portfolio__item'>
                   <img src={require('../../assets/portfolio/remax_desktop.jpg')} 
                   width="530"  height="490" 
-                  alt='Portfolio Image' 
-                  title='Portfolio Image' 
+                  alt='Portfolio' 
+                  title='Real Estate' 
                   className='portfolio__item_img'/>
                   <div className='portfolio__item_content'>
                     <h3 className='portfolio__title'>Real Estate: Web App</h3>
@@ -231,8 +234,8 @@ const Portfolio = () => {
                 <div className='portfolio__item'>
                   <img src={require('../../assets/portfolio/remax_mobile.jpg')} 
                   width="530"  height="490" 
-                  alt='Portfolio Image' 
-                  title='Portfolio Image' 
+                  alt='Portfolio' 
+                  title='Real Estate Android' 
                   className='portfolio__item_img'/>
                   <div className='portfolio__item_content'>
                     <h3 className='portfolio__title'>Real Estate: Android App</h3>

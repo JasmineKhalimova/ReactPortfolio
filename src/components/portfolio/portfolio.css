@@ -16,6 +16,7 @@
     border-radius: 1.25rem;
     border: 1px solid black;
     color: #000;
+    text-align: center;
 }
 
 .portfolio__button:hover{
